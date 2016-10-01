@@ -10,8 +10,11 @@ https://hub.docker.com/r/ethereumclassic/
 
 ##C++ 
 
+docker pull ethereumclassic/etc-cpp
 
 ##Geth
+
+docker pull ethereumclassic/etc-geth
 
 
 For edit access please contact the #development channel in slack
