@@ -20,7 +20,7 @@ When you launch the installation of the cluster, you need to specify the followi
 * `location`: The region where the VM should be deployed to
 
 
-# Ethereum C++ Deployment Walkthrough
+# Ethereum Classic Deployment Walkthrough
 1. Get your node's IP
  a. browse to https://portal.azure.com
 
@@ -28,7 +28,7 @@ When you launch the installation of the cluster, you need to specify the followi
 
  c. expand your resources, and public ip address of your node.
 
-2. Connect to your eth node
+2. Connect to your etc node
  a. SSH to the public ip of your node as the user you specified for `adminUsername`
  b. Enter your `adminPassword`
 
