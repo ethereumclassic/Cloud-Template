@@ -1,3 +1,4 @@
+<img src="https://github.com/ethereumproject/Cloud-Template/blob/master/Azure/images/etcgear-classic-green.png" width="250">
 # Geth Private Node
 
 This Microsoft Azure template deploys a single Ethereum Classic client with a private chain for development and testing.
@@ -8,8 +9,6 @@ This Microsoft Azure template deploys a single Ethereum Classic client with a pr
 </a>
 
 Once your deployment is complete you will be able to connect to the Ethereum Classic public network.
-
-![Ethereum-Azure](https://github.com/ethereumproject/Cloud-Template/tree/master/Azure/images/etcgear-classic-green.png)
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:
