@@ -1,15 +1,14 @@
+<img src="https://github.com/ethereumproject/Cloud-Template/blob/master/Azure/images/etcgear-classic-green.png" width="250">
 # Geth Private Node
 
 This Microsoft Azure template deploys a single Ethereum Classic client with a private chain for development and testing.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json)
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json" target="_blank">
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2FAethereumclassic-go-ubuntu%2Fazuredeploy.json)
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2F%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2FAethereumclassic-go-ubuntu%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 Once your deployment is complete you will be able to connect to the Ethereum Classic public network.
-
-![Ethereum-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/ethereumClassic-go-ubuntu/images/etcgear-classic-green.png)
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:
@@ -21,7 +20,7 @@ When you launch the installation of the cluster, you need to specify the followi
 * `location`: The region where the VM should be deployed to
 
 
-# Ethereum C++ Deployment Walkthrough
+# Ethereum Classic Deployment Walkthrough
 1. Get your node's IP
  a. browse to https://portal.azure.com
 
@@ -29,7 +28,7 @@ When you launch the installation of the cluster, you need to specify the followi
 
  c. expand your resources, and public ip address of your node.
 
-2. Connect to your eth node
+2. Connect to your etc node
  a. SSH to the public ip of your node as the user you specified for `adminUsername`
  b. Enter your `adminPassword`
 
