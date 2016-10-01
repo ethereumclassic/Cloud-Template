@@ -14,8 +14,10 @@ docker pull ethereumclassic/etc-cpp
 
 ##Geth
 
-docker pull ethereumclassic/etc-geth
-docker run -it ethereumclassic/etc-geth sh
-./go-ethereum/build/bin/geth
+``docker pull ethereumclassic/etc-geth``
+
+``docker run -it ethereumclassic/etc-geth sh``
+
+``./go-ethereum/build/bin/geth``
 
 For edit access please contact the #development channel in slack
