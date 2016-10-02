@@ -1,3 +1,5 @@
+<img src="https://github.com/ethereumproject/Cloud-Template/blob/master/Azure/images/etcgear-classic-green.png" width="250">
+
 # Ethereum Classic C++ Public Node
 
 This Microsoft Azure template deploys a single Ethereum Classic client(C++) which will connect to the public ETC network.
@@ -9,7 +11,7 @@ This Microsoft Azure template deploys a single Ethereum Classic client(C++) whic
 
 Once your deployment is complete you will be able to connect to the Ethereum Classic public network.
 
-![Ethereum-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/ethereumClassic-cpp-ubuntu/images/cloud-green.png)
+
 
 # Template Parameters
 When you launch the installation of the VM, you need to specify the following parameters:
