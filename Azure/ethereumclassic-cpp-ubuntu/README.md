@@ -11,6 +11,12 @@ This Microsoft Azure template deploys a single Ethereum Classic client(C++) whic
 
 Once your deployment is complete you will be able to connect to the Ethereum Classic public network.
 
+# Why Classic?
+Ethereum Classic is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
+
+Ethereum Classic is a continuation of the original Ethereum blockchain - the classic ‘unforked’ version; free from external interference and subjective tampering of transactions.
+
+<a href="https://ethereumclassic.org">Find out more</a>
 
 
 # Template Parameters
