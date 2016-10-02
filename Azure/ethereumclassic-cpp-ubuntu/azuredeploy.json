@@ -192,7 +192,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/ethereumclassic-cpp-ubuntu/configure-etc-cpp.sh"
+            "https://raw.githubusercontent.com/ethereumproject/Cloud-Template/master/azure/ethereumclassic-cpp-ubuntu/configure-etc-cpp.sh"
           ],
           "commandToExecute": "[concat('sh configure-etc-cpp.sh ', parameters('adminUsername'))]"
         }
