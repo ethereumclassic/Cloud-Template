@@ -1,14 +1,20 @@
 <img src="https://github.com/ethereumproject/Cloud-Template/blob/master/Azure/images/etcgear-classic-green.png" width="250">
-# Geth Node
+# Ethereum Classic Geth Node on Ubuntu
 
 This Microsoft Azure template deploys a single Ethereum Classic client with a private chain for development and testing.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2Fethereumclassic-go-ubuntu%2Fazuredeploy.json)
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2F%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2FAethereumclassic-go-ubuntu%2Fazuredeploy.json" target="_blank">
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2FAethereumclassic-go-ubuntu%2Fazuredeploy.json)
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fethereumproject%2FCloud-Template%2Fmaster%2FAzure%2FAethereumclassic-go-ubuntu%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
 Once your deployment is complete you will be able to connect to the Ethereum Classic public network.
+
+# Why Classic?
+Ethereum Classic is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
+
+Ethereum Classic is a continuation of the original Ethereum blockchain - the classic ‘unforked’ version; free from external interference and subjective tampering of transactions.
+<a href="https://ethereumclassic.org">Find out more</a>
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:
