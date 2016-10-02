@@ -1,5 +1,5 @@
 <img src="https://github.com/ethereumproject/Cloud-Template/blob/master/Azure/images/etcgear-classic-green.png" width="250">
-# Geth Private Node
+# Geth Node
 
 This Microsoft Azure template deploys a single Ethereum Classic client with a private chain for development and testing.
 
