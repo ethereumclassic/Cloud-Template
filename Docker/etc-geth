@@ -1,13 +1,26 @@
-FROM ubuntu:trusty
+FROM golang:1.8-alpine
 
-ENV DEBIAN_FRONTEND noninteractive
+RUN mkdir -p /go/src/github.com/ethereumproject/
 
-RUN apt-get update && \
-apt-get install -y git && \
-git clone https://github.com/ethereumproject/go-ethereum.git && \
-apt-get install -y build-essential libmp3-dev golang software-properties-common &&\
-cd go-ethereum && \
-make geth
+WORKDIR /go/src/github.com/ethereumproject/
 
-EXPOSE 8545
-EXPOSE 30303
+RUN set -ex \
+	&& apk add --no-cache git build-base gcc abuild  && \
+	git clone --depth 1 https://github.com/ethereumproject/go-ethereum.git && \
+  cd go-ethereum && \
+  go get -t -d ./... && \
+  go build ./cmd/geth && \
+	cp geth /usr/local/bin/
+
+WORKDIR /go/src/github.com/ethereumproject/go-ethereum
+
+ENV GETH_DATA /ethereum-classic
+
+RUN mkdir $GETH_DATA && \
+	ln -s $GETH_DATA /root/.ethereum
+
+VOLUME /ethereum-classic
+
+EXPOSE 8545 30303
+
+ENTRYPOINT ["geth"]
