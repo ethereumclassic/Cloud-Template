@@ -47,3 +47,6 @@ Ethereum Classic is a continuation of the original Ethereum blockchain - the cla
 Docker containers wrap a piece of software in a complete filesystem that contains everything needed to run: code, runtime, system tools, system libraries – anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment. 
 
 <a href="https://www.docker.com/what-docker">Find out more</a>
+
+etc-geth:gotham
+sha256:c7afdbc440ac5beefb900ac5ad7dd8b737f567a5857e3b9d0dada4e4b85b0e3c
