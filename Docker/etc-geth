@@ -1,23 +1,10 @@
-FROM golang:1.8-alpine
+FROM golang:1.8-jessie
 
-RUN mkdir -p /go/src/github.com/ethereumproject/
+# build geth
 
-WORKDIR /go/src/github.com/ethereumproject/
+RUN go get -v github.com/ethereumproject/go-ethereum/...
+RUN go install github.com/ethereumproject/go-ethereum/cmd/...
 
-RUN set -ex \
-	&& apk add --no-cache git build-base gcc abuild  && \
-	git clone --depth 1 https://github.com/ethereumproject/go-ethereum.git && \
-  cd go-ethereum && \
-  go get -t -d ./... && \
-  go build ./cmd/geth && \
-	cp geth /usr/local/bin/
-
-WORKDIR /go/src/github.com/ethereumproject/go-ethereum
-
-ENV GETH_DATA /ethereum-classic
-
-RUN mkdir $GETH_DATA && \
-	ln -s $GETH_DATA /root/.ethereum
 
 VOLUME /ethereum-classic
 
