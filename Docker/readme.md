@@ -28,7 +28,7 @@ This will pull the latest development release of Ethereum Classic software.
 
 ``docker run -it ethereumclassic/etc-geth-dev sh``
 
-``./go-ethereum/build/bin/geth``
+``./bin/geth``
 
 For edit access please contact the #development channel in slack
 
